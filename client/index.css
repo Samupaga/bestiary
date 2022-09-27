@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F01%2F26%2F03%2F11%2Fcage-1161869_1280.png&f=1&nofb=1&ipt=8898e1e669f750c048166542d724a3367f29e36db41ae52aeabc4a0e2a5718ea&ipo=images");
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 75px;
+    font-family: 'MedievalSharp', cursive;
+    color: #780116;
+}
+
+.cage{
+    background-color: #5c677d;
+    color: whitesmoke;
+    margin-right: 40%;
+    margin-left: 40%;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dashed;
+    border-color: black;
+    border-width: 4px;
+}
+
+li:hover{
+    background-color: #ffb600;
+}
+
+form{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+    margin-left: 30%;
+}
