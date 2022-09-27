@@ -4,13 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="beast.css"></label>
     <script src="./assets/beast.js" defer></script>
     <title>Beast!</title>
 </head>
 <body>
     <h1 id="name"></h1>
-    <h2 id="description"></h2>
-    <h2 id="habitat"></h2>
-    <h2 id="loot"></h2>
+
+    <div class="beast">
+
+        <div class="details">
+            <h2>Beast Description</h2>
+        <p id="description"></p>
+        </div>
+        
+        <div class="place">
+            <h2>Habitat</h2>
+            <p id="habitat"></p>
+        </div>
+        
+        <div class="reward">
+            <h2>Dropped Loot</h2>
+            <p id="loot"></p>
+        </div>
+
+    </div>
+
+    <div class="buttons">
+        <button id="previous-beast" class="previous-beast">Previous Beast</button>
+        <button id="home" class="home">All Beasts</button>
+        <button id="next-beast" class="next-beast">Next Beast</button>
+    </div>
+
 </body>
 </html>

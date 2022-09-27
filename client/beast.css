@@ -1,0 +1,29 @@
+body{
+    background-image: url('http://wallpapercave.com/wp/mjfMHfm.jpg');
+}
+
+h1{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #a4161a
+}
+
+.beast{
+    text-align: center;
+    color: whitesmoke;
+}
+
+h2{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'MedievalSharp', cursive;
+    font-size: 24px
+}
+
+.buttons{
+    text-align: center;
+}

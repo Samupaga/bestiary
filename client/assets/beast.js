@@ -25,9 +25,7 @@ async function displayBeastData() {
     getDescr.textContent = beast.description;
     getHabitat.textContent = beast.habitat;
     getLoot.textContent = beast.loot;
+
 }
 
 displayBeastData();
-
-
-

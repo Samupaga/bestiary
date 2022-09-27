@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2016%2F01%2F26%2F03%2F11%2Fcage-1161869_1280.png&f=1&nofb=1&ipt=8898e1e669f750c048166542d724a3367f29e36db41ae52aeabc4a0e2a5718ea&ipo=images");
+    background-image: url('http://wallpapercave.com/wp/mjfMHfm.jpg');
     
 }
 
@@ -8,11 +8,11 @@ h1{
     margin-top: 10%;
     font-size: 75px;
     font-family: 'MedievalSharp', cursive;
-    color: #780116;
+    color: #a4161a;
 }
 
 .cage{
-    background-color: #5c677d;
+    background-color: #d7be82;
     color: whitesmoke;
     margin-right: 40%;
     margin-left: 40%;
@@ -33,7 +33,9 @@ li:hover{
 form{
     margin-top: 5%;
     display: flex;
-    flex-direction: column;
+    text-align: center;
     margin-right: 30%;
     margin-left: 30%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
