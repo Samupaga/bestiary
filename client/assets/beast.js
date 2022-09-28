@@ -27,9 +27,6 @@ async function displayBeastData() {
 
 }
 
-displayBeastData(getBeastData());
-
-
 async function fetchBeast(id){
     console.log("This is in fetchBeast" + id)
 
@@ -71,3 +68,7 @@ nextBeast.addEventListener('click', async() => {
     console.log(window.location.href)
     displayBeastData(getBeastData());
 })
+
+
+
+displayBeastData();
