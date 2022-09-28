@@ -5,7 +5,7 @@ This app provides beast-related services.
 ## Installation
 
 - Make sure you have Node installed
-- Run `npm install -D` froms the `server/` folder to install all required packages
+- Run `npm install -D` from the `server/` folder to install all required packages
 
 ## Development
 
